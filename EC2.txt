@@ -27,3 +27,22 @@ Steps to launch an EC2 instance:
 
 note: if you use linux then ec2-user
 if you use ubuntu then ubuntu
+
+
+process to connect EC2 instance using mobaxterm:
+1. open mobaxterm
+2. click on session 
+3. select ssh
+4. enter the public ip address of the instance
+5. specify the username(ec2-user/ubuntu)
+6. go to advanced ssh settings
+7. select private key
+8. click on ok
+
+Steps to connect EC2 instance using putty:
+1. open putty
+2. enter the public ip address of the instance 
+3. go to ssh under category
+4. select auth
+5. browse for the private key file(.ppk)
+6. click on open
