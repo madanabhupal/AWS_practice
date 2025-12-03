@@ -1,0 +1,29 @@
+EC2: elastic compute cloud
+--------------------------------
+It is a web service that provides resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers.  
+
+Key Features of EC2:
+1. Scalability: EC2 allows users to quickly scale up or down their compute resources based on demand.
+2. Flexibility: Users can choose from a variety of instance types, operating systems, and software packages.
+3. Cost-Effectiveness: EC2 offers a pay-as-you-go pricing model, allowing users to pay only for the resources they use.
+4. Security: EC2 provides robust security features, including network firewalls, encryption, and identity and access management.
+
+instance types: virtual services which we create on EC2 is called instances.
+
+EC2 configuration components:
+operating system
+storage
+network
+security
+
+Steps to launch an EC2 instance:
+1. name of the instance
+2. choose an amazon machine image(AMI)
+3. choose an instance types
+4. key pair
+5. network configuration
+6. configure storage
+7. advanced settings
+
+note: if you use linux then ec2-user
+if you use ubuntu then ubuntu
