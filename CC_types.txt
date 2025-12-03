@@ -1,0 +1,34 @@
+cc means cloud computing 
+
+types of cloud computing:
+2 types: deployment model and service model
+
+Deployment Models:
+1. Public Cloud: Services are delivered over the public internet and shared across multiple organizations. Examples include Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP).
+2. Private Cloud: Services are maintained on a private network, offering greater control and security. Examples include on-premises data centers or private cloud services like VMware.
+3. Hybrid Cloud: A combination of public and private clouds, allowing data and applications to be shared between them for greater flexibility and optimization.
+
+Service Models:
+1. Infrastructure as a Service (IaaS): Provides virtualized computing resources over the internet. Users can rent servers, storage, and networking on a pay-as-you-go basis. Examples include AWS EC2, Google Compute Engine, and Microsoft Azure VMs.
+2. Platform as a Service (PaaS): Offers hardware and software tools over the internet   for application development. Users can build, test, and deploy applications without managing the underlying infrastructure. Examples include Google App Engine, Microsoft Azure App Service, and Heroku.
+3. Software as a Service (SaaS): Delivers software applications over the internet on a subscription basis. Users can access applications via web browsers without worrying about installation or maintenance. Examples include Google Workspace, Microsoft 365, and Salesforce.
+
+--------------------------------------------------------------
+data
+-----
+application
+-------------
+runtime
+-------------  
+middleware
+-------------
+operating system
+-------------   
+storage
+-------------
+servers
+-------------  
+virtualization
+-------------           
+network
+---------------- 
