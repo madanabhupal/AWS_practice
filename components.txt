@@ -1,0 +1,5 @@
+Data centers: A place where multiple servers are present to store, manage, and maintain data and applications.   
+Availability zones: collection of data centers in a specific region to provide high availability and fault tolerance.
+Regions: Geographical locations that contain multiple availability zones to serve users with lower latency and better performance.
+Edge locations: Data centers located closer to end-users to deliver content and services with reduced latency.
+Regional edge cache: Caches frequently accessed content at edge locations to improve delivery speed and reduce load on origin servers.
