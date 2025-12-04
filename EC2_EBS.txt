@@ -1,0 +1,24 @@
+EBS: elastic block storage
+--------------------------------
+It is a block storage service designed to be used with EC2 instances. EBS provides persistent storage that can be attached to EC2 instances, allowing data to persist even after the instance is terminated.
+
+How to create a EBS volume:
+1. Open the AWS Management Console.
+2. Navigate to the EC2 Dashboard.  
+3. In the left-hand menu, click on "Volumes" under the "Elastic Block Store" section.
+4. Click on the "Create Volume" button. 
+5. Specify the volume type, size, availability zone, and any other desired settings.
+6. Click on the "Create Volume" button to create the EBS volume.   
+
+Steps to attach EBS volume to an EC2 instance:
+1. In the EC2 Dashboard, click on "Volumes" under the "Elastic Block Store" section.
+2. Select the EBS volume you want to attach.
+3. Click on the "Actions" button and select "Attach Volume."
+4. In the "Instance" field, select the EC2 instance to which you want to attach the volume.
+5. Specify the device name (e.g., /dev/sdf) and click on the "Attach" button.
+
+steps to create a snapshot of EBS volume:
+1. In the EC2 Dashboard, click on "Volumes" under the "Elastic Block Store" section.
+2. Select the EBS volume for which you want to create a snapshot.
+3. Click on the "Actions" button and select "Create Snapshot."
+4. Provide a description for the snapshot and click on the "Create Snapshot" button.
